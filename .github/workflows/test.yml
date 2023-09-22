@@ -19,7 +19,7 @@ jobs:
         node-version: 19  # Choisir la version de Node.js que vous utilisez
 
     - name: Install Dependencies
-      run: pnpm install
+      run: npm install
 
     - name: Run Tests
-      run: pnpm test
+      run: npm test
